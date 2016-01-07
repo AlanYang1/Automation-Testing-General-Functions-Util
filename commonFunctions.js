@@ -78,9 +78,9 @@ function sendReport(strReportPath){
         var strFromAddress = "XXX@163.com";
         var strFromHost = "smtp.163.com";
         var strFromName = "Automation Testing Team";
-        var strToAddress = "Michael@auto.com;Vincent@autol.com;Alan@auto.com";
+        var strToAddress = "Lily@auto.com;Vivi@auto.com;Alan@auto.com";
         var strSubject = "Automated Testing Report"
-        var strBody = "<body><div><h1>SQLNavigator-BuildTest</h1></div><div>Build Name:"+ gStrBuildFile +"</div><br><div id=\"auto\"><iframe src=\"" +strReportPath+ "\\Main.html\" height=\"100%\" width=\"100%\" frameborder=\"0\" scrolling =\"no\"> <a href=\""+strReportPath+ "\\Main.html\">please click here to view the page content</a> </iframe> </div></body>"
+        var strBody = "<body><div><h1>XXX Project-BuildTest</h1></div><div>Build Name:"+ gStrBuildFile +"</div><br><div id=\"auto\"><iframe src=\"" +strReportPath+ "\\Main.html\" height=\"100%\" width=\"100%\" frameborder=\"0\" scrolling =\"no\"> <a href=\""+strReportPath+ "\\Main.html\">please click here to view the page content</a> </iframe> </div></body>"
         var strAttach = strReportPath+ "\\Main.html";
         try
         {
